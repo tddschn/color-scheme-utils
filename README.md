@@ -223,5 +223,5 @@ $ pip install color-scheme-utils
 
 ## Thanks
 
-- [Kovid Goyal]https://kovidgoyal.net) for creating kitty and it's excellent documentation.
+- [Kovid Goyal](https://kovidgoyal.net) for creating kitty and it's excellent documentation.
 - [vscode.one's theme editor](https://themes.vscode.one/)
