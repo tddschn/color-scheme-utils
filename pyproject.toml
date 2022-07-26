@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "color-scheme-utils"
+version = "0.1.0"
+description = ""
+authors = ["Teddy Xinyuan Chen <45612704+tddschn@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "color_scheme_utils"}]
+license = "MIT"
+homepage = "https://github.com/tddschn/color-scheme-utils"
+repository = "https://github.com/tddschn/color-scheme-utils"
+classifiers = [
+    "Topic :: Utilities"
+]
+keywords = ["terminal", "color", "scheme", "color-scheme"]
+
+[tool.poetry.scripts]
+kitty-conf-extract-theme = "color_scheme_utils.kitty_conf_extract_theme:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tddschn/color-scheme-utils/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+stringcase = "^1.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.6.0"
+rich = "^12.5.1"
+ipython = "^8.4.0"
+better-exceptions = "^0.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
