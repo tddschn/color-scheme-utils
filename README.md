@@ -6,7 +6,7 @@ A set of utilities for working with (terminal) color schemes / themes.
   - [List of utilities](#list-of-utilities)
     - [kitty-conf-extract-theme](#kitty-conf-extract-theme)
       - [Supported Output Formats](#supported-output-formats)
-      - [Usage:](#usage)
+      - [Usage](#usage)
   - [Installation](#installation)
     - [pipx](#pipx)
     - [pip](#pip)
@@ -186,7 +186,7 @@ Make sure you have an empty line after the closing </summary> tag, otherwise the
 Make sure you have an empty line after the closing </details> tag if you have multiple collapsible sections. -->
 </details>
 
-#### Usage:
+#### Usage
 
 ```
 $ kitty-conf-extract-theme -h
